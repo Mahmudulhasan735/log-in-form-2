@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#allWrapper {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./pc-hd-1080p-nature-1920x1080-wallpaper-preview.jpg);
+}
+
+.container {
+  background: white;
+  width: calc(100vw - 70vw);
+  margin: auto;
+  transform: translateY(200px);
+  z-index: 999999999;
+}
+
+span.linear {
+  content: "";
+  background: linear-gradient(to left, #3a882c8f, #3a882c8f);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.header {
+  background: linear-gradient(45deg, #8a639e, #24a5b5);
+  padding: 8px 0px;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: "roboto";
+}
+
+form#form {
+  padding: 40px;
+  width: 100%;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333333d4;
+  display: inline-block;
+  padding: 7px 0px;
+}
+
+.form-control input {
+  padding: 12px 15px;
+  display: block;
+  width: 100%;
+  border-color: #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+
+.form-control.success input {
+  border-color: #2ecc77;
+}
+
+.form-control.error input {
+  border-color: #f32f2f;
+}
+
+.form-control i {
+  position: absolute;
+  right: 8px;
+  top: 43px;
+  visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc77;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #f32f2f;
+  visibility: visible;
+}
+
+.form-control small {
+  color: #f32f2f;
+  position: absolute;
+  font-size: 15px;
+  font-family: roboto;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form .btn {
+  width: 100%;
+  background: linear-gradient(50deg, #8a639e, #24a5b5);
+  padding: 12px 0px;
+  border-radius: 5px;
+  transition: 1s;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background: linear-gradient(50deg, #24a5b5, #8a639e);
+}
+
+@media (max-width: 998px) {
+  .container {
+    width: calc(100vw - 35vw);
+    max-width: 100%;
+  }
+}
+
+.form button{
+  background-color: #8987;
+  
+}

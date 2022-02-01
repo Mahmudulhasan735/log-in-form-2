@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(wp3589868.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main {
+	width: 900px;
+	margin: auto;
+	transform: translatey(150px);
+}
+
+.left-content {
+	width: 50%;
+	background: url(blue-background-with-halftone-diagonal-lines_1017-30146.jpg);
+	float: left;
+	border-radius: 5px;
+}
+
+.left-content h2 {
+	font-weight: 900;
+	font-size: 30px;
+	padding-left: 70px;
+	color: white;
+	font-family: monospace;
+	padding-top: 127px;
+}
+
+.left-content h2:after {
+	content: "";
+	width: 60px;
+	background: white;
+	height: 1px;
+	position: absolute;
+	border: 1px solid #ddd;
+	top: 173px;
+	left: 71px;
+}
+
+.left-content p {
+	color: white;
+	padding-top: 42px;
+	padding-left: 70px;
+	font-weight: 500;
+	width: 300px;
+	text-align: justify;
+}
+
+button a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	background: none;
+	font-size: 15px;
+	padding: 11px 23px;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	transition: 0.3s;
+}
+
+button a:hover {
+	background: rgb(14, 14, 105);
+}
+
+button {
+	border: navajowhite;
+	margin-left: 65px;
+	margin-top: 30px;
+	border-radius: 50%;
+	margin-bottom: 150px;
+	background: none;
+}
+
+#circle {
+	content: "";
+	width: 300px;
+	height: 300px;
+	border: 20px solid #fff;
+	border-radius: 50%;
+	padding: 40px;
+	padding-right: 55px;
+	margin-left: 182px;
+}
+
+.sign-up-form {
+	width: 50%;
+	float: right;
+}
+
+.sign-up-form h2 {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 95px;
+}
+
+.sign-up-form h2:after {
+	content: "";
+	width: 39px;
+	height: 1px;
+	border: 1px solid black;
+	position: absolute;
+	background: black;
+	top: 132px;
+	left: 653px;
+}
+
+.sign-up-form {
+	width: 50%;
+	float: right;
+	background: white;
+	border-radius: 5px;
+}
+
+.sign-up-form h2 {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 95px;
+}
+
+.sign-up-form h2:after {
+	content: "";
+	width: 39px;
+	height: 1px;
+	border: 1px solid black;
+	position: absolute;
+	background: black;
+	top: 132px;
+	left: 653px;
+}
+
+.sign-up-form input {
+	border: none;
+	display: block;
+	padding: 14px 0px;
+	width: 208px;
+	border-bottom: 2.5px solid #ddd;
+	margin-left: 100px;
+	margin-top: 22px;
+	outline: none;
+}
+
+.sign-up-form a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 100px;
+	margin-top: 50px;
+	padding: 10px 79px;
+	background: blue;
+	color: white;
+	border-radius: 17px;
+	font-weight: 600;
+	font-family: -webkit-pictograph;
+	margin-bottom: 143px;
+	transition: 0.3s;
+}
+
+.sign-up-form a:hover {
+	background: rgb(3, 3, 97)
+}
